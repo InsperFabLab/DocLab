@@ -1,0 +1,93 @@
+site_name: Active Handout
+
+theme:
+  name: active-handout-theme
+  # locale: pt_BR
+
+docs_dir: content
+site_dir: docs
+
+site_url: https://insper-education.github.io/active-handout/
+repo_name: "Active Handout"
+repo_url: https://github.com/insper-education/active-handout
+edit_uri: edit/main/content/
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - glightbox
+  - termynal
+  - active-handout:
+      telemetry: true
+      backend_url: https://example-backend.com.br/api/
+      course_slug: Active Handout Example 2022
+      tag_tree:
+        - reference:
+            - choice-exercise
+            - parsons-exercise
+            - text-exercise
+        - grandparent-tag:
+            - parent-tag:
+                - child-tag
+
+hooks:
+  - hooks/custom_exercise.py
+
+extra:
+  custom_variables:
+    var1: "*variables*"
+    var2: material
+
+markdown_extensions:
+  - footnotes
+  - markdown.extensions.admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.magiclink
+  - pymdownx.critic:
+      mode: view
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.smartsymbols
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - attr_list
+  - pymdownx.tilde
+  - pymdownx.snippets:
+      base_path: content
+      check_paths: true
+
+nav:
+  - Home: index.md
+  - Reference:
+      - reference/syntax-highlighting/index.md
+      - reference/tabbed-content/index.md
+      - reference/basic-editing/index.md
+      - reference/advanced-editing/index.md
+      - reference/slides/index.md
+      - reference/exercise/index.md
+      - reference/custom-exercise/index.md
+      - reference/multiple-choice/index.md
+      - reference/text-questions/index.md
+      - reference/progress-check/index.md
+      - reference/video/index.md
+      - reference/parsons/index.md
+      - reference/footnotes/index.md
+      - reference/custom-variables/index.md
+      - reference/code-editor/index.md
+      - reference/dashboard/index.md
+      - reference/extra-plugins/index.md
+      #- reference/notify-content-update/index.md
