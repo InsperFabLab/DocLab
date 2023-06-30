@@ -20,4 +20,7 @@
     - PVA (Com heatcore BB) *Filamento de suporte solúvel em água
     - ~~Compósitos (Com heatcore CC)~~
 
+<!------------------------------>
+<!-- Links de imagens/atalhos -->
+<!------------------------------>
 [img_s5]: https://ultimaker.com/wp-content/uploads/2023/04/S5-hero-image.png"Ultimaker S5"
