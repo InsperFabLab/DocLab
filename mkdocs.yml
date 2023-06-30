@@ -1,4 +1,4 @@
-site_name: Active Handout
+site_name: Documentação Insper FabLab
 
 theme:
   name: active-handout-theme
@@ -8,8 +8,8 @@ docs_dir: content
 site_dir: docs
 
 site_url: https://insper-education.github.io/active-handout/
-repo_name: "Active Handout"
-repo_url: https://github.com/insper-education/active-handout
+repo_name: "Documentação Insper Fablab"
+repo_url: https://github.com/InsperFabLab/DocLab
 edit_uri: edit/main/content/
 
 extra_javascript:
@@ -72,22 +72,38 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Reference:
-      - reference/syntax-highlighting/index.md
-      - reference/tabbed-content/index.md
-      - reference/basic-editing/index.md
-      - reference/advanced-editing/index.md
-      - reference/slides/index.md
-      - reference/exercise/index.md
-      - reference/custom-exercise/index.md
-      - reference/multiple-choice/index.md
-      - reference/text-questions/index.md
-      - reference/progress-check/index.md
-      - reference/video/index.md
-      - reference/parsons/index.md
-      - reference/footnotes/index.md
-      - reference/custom-variables/index.md
-      - reference/code-editor/index.md
-      - reference/dashboard/index.md
-      - reference/extra-plugins/index.md
+  - Máquinas:
+      - Laser:
+          - Epilog Mini Helix 24: maquinas/laser/epilog/index.md
+          - Duplotech 1080: maquinas/laser/duplotech1080/index.md
+          - Duplotech 1610: maquinas/laser/duplotech1610/index.md
+      - Fresadora:
+          - Shopbot: maquinas/fresadora/shopbot/index.md
+          - Mach Elite 3020: maquinas/fresadora/elite3020/index.md
+      - Fresadora de precisão:
+          - Roland MDX-40A: maquinas/fresadoraDePrecisao/mdx40a/index.md
+          - Roland MDX-540: maquinas/fresadoraDePrecisao/mdx540/index.md
+      - Impressora 3D:
+          - Ultimaker S5: maquinas/impressora3d/ultimakerS5/index.md
+          - Ultimaker 2+: maquinas/impressora3d/ultimaker2plus/index.md
+          - Zmorph: maquinas/impressora3d/zmorph/index.md
+      - Cortadora de Vinil:
+          - Roland Gx-24: maquinas/vinil/gx24/index.md
+      # - reference/syntax-highlighting/index.md
+      # - reference/tabbed-content/index.md
+      # - reference/basic-editing/index.md
+      # - reference/advanced-editing/index.md
+      # - reference/slides/index.md
+      # - reference/exercise/index.md
+      # - reference/custom-exercise/index.md
+      # - reference/multiple-choice/index.md
+      # - reference/text-questions/index.md
+      # - reference/progress-check/index.md
+      # - reference/video/index.md
+      # - reference/parsons/index.md
+      # - reference/footnotes/index.md
+      # - reference/custom-variables/index.md
+      # - reference/code-editor/index.md
+      # - reference/dashboard/index.md
+      # - reference/extra-plugins/index.md
       #- reference/notify-content-update/index.md
