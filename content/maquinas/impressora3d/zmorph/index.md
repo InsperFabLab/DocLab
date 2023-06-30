@@ -2,7 +2,7 @@
 
 ![alt text][img_zmorph]
 
-## - Especificações:
+## Especificações:
 
 - ^^Área útil^^:
     - 235mm(x) 250mm(y) 165mm(z)
