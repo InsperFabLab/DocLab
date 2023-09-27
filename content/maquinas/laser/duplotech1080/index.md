@@ -28,8 +28,11 @@
 
 O software usado para configurar os arquivos para a laser e o ![RDWorks 8.1](https://www.duplotech.com.br/download.php?file=downloads/rdcam-8148.rar)
 
-
 ## Arquivo de teste
+
+![Arquivo de teste de gravação editavel](../files/TesteGravacao.svg)
+![Arquivo de teste de gravação em DXF](../files/TesteGravacao.dxf)
+![Arquivo de teste de gravação pronto para laser](../files/testGrav.rd)
 
 ## Parametros
 
