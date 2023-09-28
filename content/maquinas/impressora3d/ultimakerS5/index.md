@@ -24,3 +24,7 @@
 <!-- Links de imagens/atalhos -->
 <!------------------------------>
 [img_s5]: https://ultimaker.com/wp-content/uploads/2023/04/S5-hero-image.png"Ultimaker S5"
+
+## Software
+
+O software usado para configurar os arquivos para impressão 3D é o ![Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/#links)
