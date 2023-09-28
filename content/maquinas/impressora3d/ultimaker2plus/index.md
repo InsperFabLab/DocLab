@@ -23,3 +23,7 @@
     - ~~Compósitos~~
 
 [img_2plus]:https://www.insper.edu.br/wp-content/uploads/2018/09/ultimaker2-fablab.png"Ultimaker 2+"
+
+## Software
+
+O software usado para configurar os arquivos para impressão 3D é o ![Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura/#links)
