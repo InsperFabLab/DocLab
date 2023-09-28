@@ -26,7 +26,7 @@
 
 ## Software
 
-O software usado para configurar os arquivos para a laser e o ![RDWorks 8.1](https://www.duplotech.com.br/download.php?file=downloads/rdcam-8148.rar)
+O software usado para configurar os arquivos para a laser e o [RDWorks 8.1][1]
 
 ## Arquivo de teste
 
@@ -55,3 +55,13 @@ O software usado para configurar os arquivos para a laser e o ![RDWorks 8.1](htt
 
      - **Speed**: 12 mm/s
      - **Power**: 80 - 852 %
+
+## Gerar arquivos de corte
+
+**Arquivo DXF**:
+
+- Importar arquivos DXF para o [RDWorks][1].
+- Setar parametros de velocídade e potencia para cada cor.
+- Clicar em **"Salvar U file"** para exportar para o pendrive
+
+[1]: https://www.duplotech.com.br/download.php?file=downloads/rdcam-8148.rar
