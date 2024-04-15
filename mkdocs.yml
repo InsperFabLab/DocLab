@@ -90,3 +90,6 @@ nav:
           - Zmorph: maquinas/impressora3d/zmorph/index.md
       - Cortadora de Vinil:
           - Roland Gx-24: maquinas/vinil/gx24/index.md
+  - Projetos:
+      - Cluster: https://insper.github.io/UpCluster/
+      - Pista TurtleBot: projetos/pistaTurtlebot/index.md
