@@ -51,6 +51,11 @@ O software usado para configurar os arquivos para a laser e o [RDWorks 8.1][1]
      - **Speed**: 15 mm/s
      - **Power**: 70 - 75 %
 
+ - ^^MDF 6mm(CORTE):^^
+
+     - **Speed**: 8 mm/s
+     - **Power**: 90 - 95 %
+
  - ^^Compensado 10mm(CORTE):^^
 
      - **Speed**: 8 mm/s
