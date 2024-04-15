@@ -2,7 +2,7 @@
 
 ![alt text][img_carbonX1]
 
-[Site Fabricante](https://bambulab.com/en/x1)
+![Site Fabricante][site]
 
 
 # Especificações: #
@@ -34,4 +34,15 @@
     - Compósitos
     - Flexíveis (Fora do AMS)
 
+## Software
+
+O software usado para configurar os arquivos para impressão 3D é o ![Bambu Studio][software]
+
+
+<!------------------------------>
+<!-- Links de imagens/atalhos -->
+<!------------------------------>
+
 [img_carbonX1]:https://lh3.googleusercontent.com/NJ0s792aUxeHNZ0jIaW5M20n_mzUasM1oHosPTlDvfOJheo-Zc62YR7_Y7a0e6iRiPguITSN1-fRWfd84gZA-puJCzkjvoLkleY=w900-h675-p-rw-e365"Bambu Labs"
+[site]:https://bambulab.com/en/x1"Bambu Labs"
+[software]:https://bambulab.com/en/download/studio"Bambu Studio"
